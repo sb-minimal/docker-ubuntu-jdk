@@ -57,6 +57,9 @@ rm -rf /usr/share/man
 rm -rf /usr/lib/perl*
 rm -rf /usr/share/perl*
 rm -rf /usr/lib/python*
+rm -rf /usr/share/python*
+
+rm -rf /var/cache/oracle-jdk*
 
 clean_bin /usr/bin ${@:2}
 clean_bin /sbin ${@:2}
