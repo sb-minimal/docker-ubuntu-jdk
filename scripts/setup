@@ -19,5 +19,6 @@ apt-get install paxctl
 
 paxctl -Cm /usr/lib/jvm/java*/bin/java
 paxctl -Cm /usr/lib/jvm/java*/jre/bin/java
+paxctl -Cm /usr/lib/jvm/java*/bin/java/keytool
 
 rm -rf /var/lib/apt/lists/*
